@@ -39,16 +39,16 @@ usernameNextButtonPath = "identifierNext"
 meetchatpath = "//*[@id='ow3']/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea"
 passwordFieldPath = "password"
 passwordNextButtonPath = "passwordNext"
-joinButton1Path = "//span[contains(text(), 'Join')]"
-joinButton2Path = "//span[contains(text(), 'Ask to join')]"
-endButtonPath = "[aria-label='Leave call']"
+joinButton1Path = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/span" #join
+joinButton2Path = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/span" #ask to join
+endButtonPath = "[aria-label='Leave call']" #stop meet
 studentNumberPath = "//span[@class='rua5Nb']"
 listButtonPath = "//div[@aria-label='Chat with everyone']"
 listButtonCrossPath = "//button[@aria-label='Close']"
-camerapath = "//*[@id='yDmH0d']/c-wiz/div/div/div[9]/div[3]/div/div/div[2]/div/div/div[1]/div[1]/div/div[4]/div[2]/div/div"
-microphonepath = "//*[@id='yDmH0d']/c-wiz/div/div/div[9]/div[3]/div/div/div[2]/div/div/div[1]/div[1]/div/div[4]/div[1]/div/div/div"
-sendmessagepath = "//*[@id='ow3']/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[2]/span"
-openmessage = "//*[@id='ow3']/div[1]/div/div[9]/div[3]/div[1]/div[3]/div/div[2]/div[3]/span/span"
+camerapath = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[1]/div[1]/div/div[4]/div[1]/div/div/div" #camera
+microphonepath = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[1]/div[1]/div/div[4]/div[2]/div/div"#microphone
+sendmessagepath = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/div[2]/span" #send message
+openmessage = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[10]/div[3]/div[2]/div/div/div[3]/span/button" #open message
 e = threading.Event()
 
 BANNER1 = colored('''
