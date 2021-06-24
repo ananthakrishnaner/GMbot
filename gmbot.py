@@ -36,7 +36,7 @@ BROWSER_DRIVER = "chromedriver.exe"
 
 usernameFieldPath = "identifierId"
 usernameNextButtonPath = "identifierNext"
-meetchatpath = "//*[@id='ow3']/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea"
+meetchatpath = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/div[1]/div[1]/div[2]/textarea"
 passwordFieldPath = "password"
 passwordNextButtonPath = "passwordNext"
 joinButton1Path = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/span" #join
@@ -49,6 +49,7 @@ camerapath = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/d
 microphonepath = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[1]/div[1]/div/div[4]/div[2]/div/div"#microphone
 sendmessagepath = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/div[2]/span" #send message
 openmessage = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[10]/div[3]/div[2]/div/div/div[3]/span/button" #open message
+openmessage1 = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[10]/div[3]/div[2]/div/div/div[3]/span/button"
 e = threading.Event()
 
 BANNER1 = colored('''
@@ -160,18 +161,17 @@ def attendMeet(client, message):
         action.send_keys(Keys.ESCAPE).perform()
     time.sleep(2)
     camera1.click()
+    time.sleep(1)
     microphone.click()
+    time.sleep(1)
     joinButton.click()
     print(colored(" Success!", "green"))
     time.sleep(3)
     print(colored(f"Now attending Google Meet # @{timeStamp()}", "green"), end="")
     sendMessage(f"Now attending Google Meet # @{timeStamp()}")
     time.sleep(5)
-    listButton = driver.find_element_by_xpath(listButtonPath)
-    listButton.click()
-    time.sleep(1)
-    #sendmeet = wait.until(when.element_to_be_clickable((by.XPATH, meetchatpath)))
-    #sendmeet.click()
+    openmessagearea = wait.until(when.element_to_be_clickable((by.XPATH, openmessage1)))
+    openmessagearea.click()
 
     try:
         joinButton = wait.until(when.element_to_be_clickable((by.XPATH, joinButton1Path)))   # For another prompt that pops up for Meets being recorded
