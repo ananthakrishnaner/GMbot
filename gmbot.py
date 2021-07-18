@@ -47,7 +47,7 @@ listButtonPath = "//div[@aria-label='Chat with everyone']"
 listButtonCrossPath = "//button[@aria-label='Close']"
 camerapath = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[1]/div[1]/div/div[4]/div[1]/div/div/div" #camera
 microphonepath = "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[4]/div/div/div[1]/div[1]/div/div[4]/div[2]/div/div"#microphone
-sendmessagepath = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/div[2]/span" #send message
+sendmessagepath = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/span/button/i" #send message
 openmessage = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[10]/div[3]/div[2]/div/div/div[3]/span/button" #open message
 openmessage1 = "/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[10]/div[3]/div[2]/div/div/div[3]/span/button"
 e = threading.Event()
@@ -94,7 +94,7 @@ def initBrowser():
         #chromeOptions.add_argument("--disable-infobars")
         #chromeOptions.add_argument("--disable-gpu")
         #chromeOptions.add_argument("--disable-extensions")
-        chromeOptions.add_argument("--window-size=800,800")
+        chromeOptions.add_argument("--window-size=700,700")
         #chromeOptions.add_argument("--disable-blink-features=AutomationControlled")
         #chromeOptions.add_argument("--incognito")
         chromeOptions.add_experimental_option('excludeSwitches', ['enable-logging'])
