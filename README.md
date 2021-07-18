@@ -4,7 +4,8 @@
 
 
 
-GMbot help you to automate your online class .
+GMbot help you to automate your online class.
+
 
 - Join the meet by puting meet url (with the help of your friend via 
 telegram bot)
@@ -16,9 +17,6 @@ telegram bot)
 attending online classes
 
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
 
 ## Dependencies
 
