@@ -74,7 +74,7 @@ Add your chromdrive location in
 python gmbot.py
 ```
 [![IMAGE ALT 
-TEXT](https://github.com/ananthakrishnaner/GMbot/img/gmbotimage.jpg)](http://www.youtube.com/watch?v=u1Xhm12Ga2M 
+TEXT](https://github.com/ananthakrishnaner/GMbot/blob/main/img/gmbotimage.JPG?raw=true)](http://www.youtube.com/watch?v=u1Xhm12Ga2M 
 "Video Poc")
 
 
