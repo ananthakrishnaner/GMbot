@@ -77,3 +77,4 @@ TEXT](https://github.com/ananthakrishnaner/GMbot/blob/main/img/gmbotimage.JPG?ra
 
 
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=3cca959b930b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
