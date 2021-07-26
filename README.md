@@ -4,7 +4,8 @@
 
 
 
-GMbot help you to automate your online class .
+GMbot help you to automate your online class.
+
 
 - Join the meet by puting meet url (with the help of your friend via 
 telegram bot)
@@ -16,9 +17,6 @@ telegram bot)
 attending online classes
 
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
 
 ## Dependencies
 
@@ -74,8 +72,9 @@ Add your chromdrive location in
 python gmbot.py
 ```
 [![IMAGE ALT 
-TEXT](https://github.com/ananthakrishnaner/GMbot/img/gmbotimage.jpg)](http://www.youtube.com/watch?v=u1Xhm12Ga2M 
+TEXT](https://github.com/ananthakrishnaner/GMbot/blob/main/img/gmbotimage.JPG?raw=true)](http://www.youtube.com/watch?v=u1Xhm12Ga2M 
 "Video Poc")
 
 
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=3cca959b930b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
